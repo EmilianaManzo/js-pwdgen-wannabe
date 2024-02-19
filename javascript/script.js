@@ -21,13 +21,13 @@ console.log(firstName, lastName, favColor, password, securityNumber);
 //6
 
 //soluzione senza template literal e senza variabile securityNumber
-// document.getElementById('output').innerHTML = password + 24
+// document.getElementById('output').innerHTML = password + '24'
 
 
 //soluzione con template literal
 document.getElementById('output').innerHTML =
 `
-<p class="red">Password: ${password}</p>
+<p class="red">Password: <strong> ${password} </strong> </p>
 
 `
 
