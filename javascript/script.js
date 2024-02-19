@@ -8,14 +8,27 @@ const lastName = prompt('Scrivi qui il tuo cognome');
 const favColor = prompt('Scrivi qui il tuo colore preferito');
 
 //4
-const password = firstName + lastName + favColor 
-
-// console control 
-console.log(firstName, lastName, favColor, password);
+const securityNumber = 24
 
 //5
+const password = firstName + lastName + favColor + securityNumber
 
-//soluzione senza template literal
-document.getElementById('output').innerHTML = password + 24
+
+
+// console control 
+console.log(firstName, lastName, favColor, password, securityNumber);
+
+//6
+
+//soluzione senza template literal e senza variabile securityNumber
+// document.getElementById('output').innerHTML = password + 24
+
+
+//soluzione con template literal
+document.getElementById('output').innerHTML =
+`
+<p class="red"> ${password}</p>
+
+`
 
 

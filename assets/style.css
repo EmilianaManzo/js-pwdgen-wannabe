@@ -1,5 +1,18 @@
-/* div{
-  
-  margin: 50vh auto;
+body{
+  background-color: black;
+}
+
+.red{
+  color: red;
+}
+
+.green{
+  color: green;
+}
+
+div{
+  font-size: 3rem;
+  margin: 300px auto;
   border: 1px solid red;
-} */
+  text-align: center;
+}
