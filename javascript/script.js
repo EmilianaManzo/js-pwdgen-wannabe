@@ -10,8 +10,12 @@ const favColor = prompt('Scrivi qui il tuo colore preferito');
 //4
 const password = firstName + lastName + favColor 
 
-//5
-document .getElementById('output')
-
+// console control 
 console.log(firstName, lastName, favColor, password);
+
+//5
+
+//soluzione senza template literal
+document.getElementById('output').innerHTML = password + 24
+
 
