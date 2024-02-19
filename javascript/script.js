@@ -27,7 +27,7 @@ console.log(firstName, lastName, favColor, password, securityNumber);
 //soluzione con template literal
 document.getElementById('output').innerHTML =
 `
-<p class="red"> ${password}</p>
+<p class="red">Password: ${password}</p>
 
 `
 
